@@ -1,0 +1,86 @@
+#conteiner {
+ width: 100px;
+ height: 100px;
+ background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#cole {
+    width: 1000px;
+    height: 1000px;
+}
+
+.circle {
+    display:inline-block ;
+    width: 150px;
+    height: 150px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+.circle:hover{
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes floating {
+    0% {transform: translate(0,0px);}
+    50% {transform: translate(0,15px);}
+    100% {transform: translate(0, -0px);}
+}
+#circle1 {
+    background-color: red;
+}
+#circle2 {
+    background-color: orange;
+}
+#circle3 {
+    background-color: green;
+}
+.circle1 {
+    width: 150px;
+    height: 150px;
+    border: 10px solid black;
+    border-radius: 50%;
+}
+#circle11{
+    background-color: red;
+}
+#circle22 {
+    /* margin: auto; */
+    background-color: orange;
+}
+#circle33 {
+    margin-right:  20% ;
+    background-color: green;
+
+}
+.circleContainer {
+    display: flex;
+    flex-direction: row;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+.leftContainer {
+    width: 90%;
+    height: 33%;
+    display: flex;
+    justify-content: left;
+}
+.middlecontainer {
+    width: 90%;
+    height: 33%;
+    display: flex;
+    justify-content:center;
+}
+.rightContainer {
+    width: 90%;
+    height: 33%;
+    display: flex;
+    justify-content:right;
+}
