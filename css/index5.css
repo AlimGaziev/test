@@ -1,0 +1,10 @@
+.important-item {
+    color: red;
+    font-size: 20px;
+    border: green 2px solid;
+    padding: 5px;
+}
+
+img {
+    width: 200px;
+}

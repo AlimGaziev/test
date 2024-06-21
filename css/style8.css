@@ -1,0 +1,76 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+}
+.navContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.loginContainer {
+    display: flex;
+    width: 20%;
+    margin-right: 10%;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.centerContainer {
+    display: flex;
+    justify-content: row;
+    height: 80%;
+
+}
+.leftSide {
+    width: 600px;
+    height: 100%;
+    background-color: rgba(56, 250, 53, 0.897);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.rightSide {
+    width: 600px;
+    height: 500px;
+    background-color: rgba(226, 245, 246, 0.897);
+    border-radius: 10px;
+    
+}
+.rightSide form {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 100%;
+    align-items: center;
+}
+button {
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+    width: 30%;
+    height: 7%;
+}
+.LoginSystem {
+    font-size: large;
+    font-weight: 700;
+}
+input {
+    height: 30px;
+    width: 50%; 
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+}
+select {
+    height: 30px;
+    width: 50%; 
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+}
