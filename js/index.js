@@ -1,10 +1,36 @@
 let button = document.getElementById('btn')
 // debugger
 button.style.width = '200px'
+let colour1 = 'red'
+let colour2 = 'yellow'
+let colour3 = 'green'
+
+let number = 2
+let x = 7
+let y = 4 
+let result = x-y
 button.addEventListener('click', () => {
-    let square = document.getElementById('sqr')
-    square.style.backgroundColor= 'blue'
-})
+    if (number === result ) {
+        alert("true") 
+    } else {
+        alert("false")
+    }
+}) 
+// let square = document.getElementById('sqr')
+// button.addEventListener('click', () => {
+//     if (square.style.backgroundColor === colour1 ) {
+//          square.style.backgroundColor = colour2
+//     } else if (square.style.backgroundColor === colour2) { 
+//         square.style.backgroundColor= colour3
+//     } else { 
+//         square.style.backgroundColor= colour1
+//     }
+// })
+// button.addEventListener('click', () => {
+//     square.style.backgroundColor === 'red' ? square.style.backgroundColor= 'yellow' 
+//     : square.style.backgroundColor === 'yellow' ?  square.style.backgroundColor= 'green'
+//     : square.style.backgroundColor= 'red'  
+// })
 let input = document.getElementById('name')
 input.value='Alim'
 
@@ -25,3 +51,4 @@ button2.addEventListener('click', () => {
     let numbers2 = numbers.find(number => number === 7 )
     alert(numbers2)
 })
+
